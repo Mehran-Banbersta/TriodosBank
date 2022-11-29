@@ -1,0 +1,467 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/****************************
+/*******************
+/*                         */
+
+h2,
+p {
+ padding-top: 1rem;
+ padding-bottom: 1rem;
+}
+
+/****************************
+/*******************
+/*                         */
+
+
+
+
+/****************************
+/*******************
+/*         nav                */
+
+nav {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 1.5rem;
+ color: #00006b;
+}
+      .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      nav button {
+       border: none;
+       background-color: inherit;
+       margin-left: 1rem;
+       font-size: larger;
+      }
+
+      nav .logo  {
+        display: flex;
+      }
+
+      nav .logo img {
+        width: 30px;
+        height: 30px;
+      }
+
+
+      /****************************
+      /*******************
+      /*       home-page-top          */  
+      .menu-btn {
+        width: 24px;
+        height: 2.5px;
+        cursor: pointer;
+      }
+      
+      .menu-btn__burger {
+        position: absolute;
+        width: 24px;
+        height: 2px;
+        background: #111;
+      }
+      
+      /* ::after creates a pseudo-element that is the last child of the selected element.
+      It is often used to add cosmetic content to an element with the content property.*/
+      .menu-btn__burger::after {
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 1.5px;
+        top: -8px;
+        background: #111;
+      }
+      
+      /* ::before creates a pseudo-element that is the first child of the selected element.
+      It is often used to add cosmetic content to an element with the content property.*/
+      .menu-btn__burger::before {
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 2px;
+        top: 8px;
+        background: #111;
+      }
+
+/****************************
+/*******************
+/*       home-page-top          */
+.home-page-top {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.223),
+    rgba(0, 0, 0, 0.223)
+  ),
+    url(./images/homepage/triodoshippo-home.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #f1e7e7;
+}
+
+        .home-page-top_content {
+          width: 80%;
+          font-size: 1rem;
+        }
+
+        .home-page-top_content h2{
+          font-size: 2.5rem;
+        }
+
+        .home-page-top_content p{
+          font-size: 1.3rem;
+          color: #F8F6F2;
+        }
+
+        .home-page-top_content button{
+          margin-top: 1.5rem;
+          padding: 14px 2rem;
+          font-size: 18px;
+          cursor: pointer;
+          border: 2px solid rgba(0, 0, 0, 0.223);
+          border-radius: 6px;
+          color: #00006b;
+          font-weight: 700;
+        }
+
+        .home-page-top_content button:hover{
+        transition: ease-in-out .4s;
+        border: 2px solid rgb(0, 0, 107);
+
+        }
+
+
+
+/****************************
+/*******************
+/*    home-page-bottom     */
+
+ .home-page-bottom {
+  font-weight: 500;
+  color: #00006b;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+      
+
+/****************************
+/*******************
+/*    section 3     */
+
+.section-3 {
+ background-color: #e6f2f5;
+ color: #00006b;
+ height: auto;
+ padding-bottom: 2rem;
+}
+     
+      .section-3 .item-1 {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+        font-weight: 900;
+       }
+
+            .section-3 .item-1 h3{
+              font-size: 1.3rem;
+              margin-bottom: .8rem;
+            }
+
+            .section-3 .item-1 ul li {
+              list-style: none;
+              padding-bottom: .8rem;
+              font-size: 1.1rem;
+            }
+
+            .section-3 .item-1 ul li a,
+            .section-3 .item-3 a{
+              color: #00006b;
+              text-decoration: none;
+              position: relative;
+             }
+
+          
+            
+             .section-3 .item-1 ul li a:after,
+             .section-3 .item-3 a:after{
+              content: '';
+              width: 100%;
+              position: absolute;
+              left: 0;
+              top: 21px;
+              border-width: 0 0 1px;
+              border-bottom: 2px solid #6d83ad;
+              
+            }
+           
+            .section-3 .item-1 .item-1_content-1 {
+             margin-right: 6rem;
+            }
+
+            .section-3 .item-1 .fa-chevron-right,
+            .section-3 .item-3 .fa-chevron-right {
+              padding-right: .5rem;
+              font-size: .8rem;
+            }
+
+            
+       
+
+      .section-3 .item-2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        background-color: #fcf9f9;
+        min-width: 90%;
+        height: 14vh;
+      }
+
+            .section-3 .item-2 button{
+            width: 40px;
+            height: 40px;
+            border-radius: 90%;
+            font-size: 2rem;
+            border: 2px solid #bfbfbf;
+            background-color: inherit;
+            }
+
+
+      .section-3 .item-3 {
+       background-color: #FFF5B9;
+       padding: 1.5rem;
+       margin-top: 4rem;
+      } 
+
+
+            .section-3 .item-3 .fa-chevron-right {
+              padding-right: .5rem;
+              font-size: .8rem;
+            }
+
+
+            .section-3 .item-3 a {
+              font-weight: 900;
+            }
+
+
+/****************************
+/*******************
+/*         */
+
+
+.section-slide-1 {
+  background-image: linear-gradient(
+    to top,
+    hsl(205, 100%, 50%),
+    hsl(124, 100%, 19%)
+  );
+  height: 40vh;
+ 
+  
+}
+
+      .section-slide-1 h2{
+        text-align: center;
+      }
+      .slider-1 {
+      display: grid;
+      width: 100%;
+      justify-content: space-evenly;
+       
+     
+      }
+
+          .img-slider {
+            padding-top: 2rem;
+            background-color: #714141;
+          width: 38%;
+            background-color: inherit;
+          }
+
+          .img-slider img {
+        width: 100%;
+      
+           /* object-fit: cover; */
+            border-radius: 20px;
+           
+          }
+  /*
+          .content-slider {
+            position: absolute;
+            object-fit: cover;
+            object-position: center;
+            inset: 0;
+            padding: 1rem;
+          }
+
+
+       */
+
+
+       @media screen and (min-width: 600px) {
+        
+         #container-1 {
+  width: 80%;
+  margin: 0 auto;
+ }
+
+ .container-2 {
+  width: 70%;
+  margin: 0 auto;
+ }
+        body {
+         background-color: aquamarine;
+        }
+        .flexbox-list {
+           justify-content: space-between;
+        }
+       
+        .flexbox-item {
+         width: 32%;
+        }
+
+
+        .section-3 {
+          background-color: #e6f2f5;
+          color: #00006b;
+          height: auto;
+          padding-bottom: 2rem;
+         }
+              
+               .section-3 .item-1 {
+                 display: flex;
+                 align-items: center;
+                 padding-bottom: 2rem;
+                 padding-top: 2rem;
+                 margin-bottom: 2rem;
+                 font-weight: 900;
+                }
+         
+                     .section-3 .item-1 h3{
+                       font-size: 1.3rem;
+                       margin-bottom: .8rem;
+                     }
+         
+                     .section-3 .item-1 ul li {
+                       list-style: none;
+                       padding-bottom: .8rem;
+                       font-size: 1.1rem;
+                     }
+         
+                     .section-3 .item-1 ul li a,
+                     .section-3 .item-3 a{
+                       color: #00006b;
+                       text-decoration: none;
+                       position: relative;
+                      }
+         
+                   
+                     
+                      .section-3 .item-1 ul li a:after,
+                      .section-3 .item-3 a:after{
+                       content: '';
+                       width: 100%;
+                       position: absolute;
+                       left: 0;
+                       top: 21px;
+                       border-width: 0 0 1px;
+                       border-bottom: 2px solid #6d83ad;
+                       
+                     }
+                    
+                     .section-3 .item-1 .item-1_content-1 {
+                      margin-right: 6rem;
+                     }
+         
+                     .section-3 .item-1 .fa-chevron-right,
+                     .section-3 .item-3 .fa-chevron-right {
+                       padding-right: .5rem;
+                       font-size: .8rem;
+                     }
+         
+                     
+                
+         
+               .section-3 .item-2 {
+                 display: flex;
+                 justify-content: space-between;
+                 align-items: center;
+                 padding-left: 3rem;
+                 padding-right: 3rem;
+                 background-color: #fcf9f9;
+                 min-width: 90%;
+                 height: 14vh;
+               }
+         
+                     .section-3 .item-2 button{
+                     width: 40px;
+                     height: 40px;
+                     border-radius: 90%;
+                     font-size: 2rem;
+                     border: 2px solid #bfbfbf;
+                     background-color: inherit;
+                     }
+         
+         
+               .section-3 .item-3 {
+                background-color: #FFF5B9;
+                padding: 1.5rem;
+                margin-top: 4rem;
+               } 
+         
+         
+                     .section-3 .item-3 .fa-chevron-right {
+                       padding-right: .5rem;
+                       font-size: .8rem;
+                     }
+         
+         
+                     .section-3 .item-3 a {
+                       font-weight: 900;
+                     }
+      /*********************
+      /**************
+      /*  */
+
+      .slider-1 {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+       
+     
+      }
+
+          .img-slider {
+            padding-top: 2rem;
+            background-color: #714141;
+          width: 28%;
+            background-color: inherit;
+          }
+
+          .img-slider img {
+        width: 100%;
+      
+           /* object-fit: cover; */
+           border-radius: 20px;
+           
+          }
+      }

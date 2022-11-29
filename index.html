@@ -3,7 +3,9 @@
 <head>
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <script src="https://kit.fontawesome.com/e31795c4b4.js" crossorigin="anonymous"></script>
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./style.css">
  <title>Triodos Bank</title>
 </head>
 <body>
@@ -13,14 +15,18 @@
 <header>
  <nav class="nav">
 
-  <div class="menubtn search">
-   <button>|||</button>
-   <button>Search</button>
-    
+  <div class="menu search">
+      <div class="menu-btn">
+        <span id="open-nav" class="menu-btn__burger"></span>
+        <span class="menu-btn__name"></span>
+      </div>
+       <button><i class="fa fa-search"></i></button>
   </div>
 
   <div class="logo">
-   <h1>Triodos Bank</h1>
+   <h1>Triodos</h1>
+   <img src="./images/logo/logo.png" alt="logo.png">
+   <h1>Bank</h1>
   </div>
 
   <div>
@@ -34,22 +40,141 @@
 <main>
  <!---------article home page top ------------>
  <article class="home-page-top">
-  <h1>Made for change</h1>
-  <p>Van de eerste windmolen in Nederland tot de allergrootste superbatterij. 
-   Triodos Bank is al meer dan 40 jaar dé bank voor verandering.
-    En we zijn pas net begonnen!</p>
-    <button>Sluit je aan</button>
+   <div class="home-page-top_content">  
+     <h2>Made for change</h2>
+      <p>Van de eerste windmolen in Nederland tot de allergrootste superbatterij. 
+       Triodos Bank is al meer dan 40 jaar dé bank voor verandering.
+       En we zijn pas net begonnen!</p>
+       <button>Sluit je aan</button>
+    </div>
+
  </article>
 
  <!---------article home page bottom ------------>
-
+<div class="container-2">
  <article class="home-page-bottom">
   <p>Steeds meer mensen en organisaties kiezen voor bankieren bij
     Triodos Bank, een van de meest duurzame banken ter wereld. Al ruim 740.000 klanten zijn onderdeel van onze positieve beweging. Zij zijn er, net als wij,
     van overtuigd dat geld veranderkracht heeft.</p>
  </article>
+</div>
 
   <!---------article Meest gekozen ------------>
+  
+  <article class="section-3">
+   <div class="container-2"> 
+     <div class="item-1">
+      <div class="item-1_content-1">
+       <h3>Meest gekozen</h3>
+         <ul>
+           <li><i class="fas fa-chevron-right"></i><a href="#">betaalrekeningen</a></li>
+           <li><i class="fas fa-chevron-right"></i><a href="#">Beleggen bij Triodos</a></li>
+           <li><i class="fas fa-chevron-right"></i><a href="#">Triodos Hypotheken</a></li>
+         </ul>
+      </div>
+     
+
+    
+      <div class="item-1_content-2">
+       <h3>Snel naar</h3>
+         <ul>
+          <li><i class="fas fa-chevron-right"></i><a href="#">Pas blokkeren/deblokkeren</a></li>
+          <li><i class="fas fa-chevron-right"></i><a href="#">Veelgestelde vragen</a></li>
+          <li><i class="fas fa-chevron-right"></i><a href="#">Contact met Triodos</a></li>
+        </ul>
+      </div>  
+     </div>
+    </div>
+
+     <div id="container-1">
+     <div class="item-2">
+       <h2>Bescherm jezelf en anderen tegen fraude</h2>
+       <button>+</button>
+     </div>
+    </div>
+
+    <div class="container-2"> 
+     <div class="item-3">
+       <h3>Pas op! Er zijn oplichters actief die telefoontjes plegen uit naam van Triodos Bank!</h3>
+       <p>
+        Dit noemen we bankhelpdeskfraude. Wij benaderen je nooit om te vragen naar
+         je persoonlijke codes of identifiernummer,
+         om software te installeren,
+         om QR-codes te scannen en zetten je niet onder druk om geld over te
+         maken naar een andere rekening. Heb je gegevens afgegeven of heb je je persoonlijke codes doorgegeven?
+          Bel 030 753 6450 of mail fraude@triodos.nl.
+         </p>
+         <i class="fas fa-chevron-right"></i><a href="#">Lees meer over fraude</a>
+      </div>
+    </div>
+     
+  </article>
+
+ <!------------------------------>
+
+
+   <article class="section-slide-1">
+    <h2>Actueel bij Triodos Bank</h2>
+
+    <div class="slider-1">
+
+      <div class="img-slider">
+        <img src="./images/flex-box-01/triodoshippo_flexRegular (2).jpeg" alt="triodoshippo_flexRegular (2).jpeg">
+         <!-------
+        <div class="content-slider">
+          <h3> Per 1 december verhogen wij de spaarrente</h3>
+          <p>Ook wordt het maandelijkse tarief van 
+            spaarrekeningen aangepast naar € 0
+          </p>
+
+          <div class="recipes-slider-wrapper__info">
+            
+          </div>
+        </div>
+      ---->
+      </div>
+
+      <div class="img-slider">
+    
+        <img src="./images/flex-box-01/triodoshippo_flexRegular.jpeg" alt="triodoshippo_flexRegular.jpeg">
+             <!-------
+        <div class="content-slider slide-up">
+          <h3>We zijn pas net begonnen</h3>
+          <p>
+            Sluit je aan bij de bank voor verandering
+          </p>
+          <div class="recipes-slider-wrapper__info">
+         
+          </div>
+        </div>
+          ---->
+      </div>
+
+      <div class="img-slider">
+        <img src="./images/flex-box-01/triodoshippo_flexRegular (2).jpeg" alt="/triodoshippo_flexRegular (2).jpeg">
+            <!-------
+        <div class="content-slider">
+          <h3>Campagne ‘Frauderen. Zo werkt het!’ gestart</h3>
+          <p>
+            Leer hoe fraudeurs te werk gaan en weet wat
+             jij moet doen om niet opgelicht te worden
+          </p>
+          <div class="recipes-slider-wrapper__info">
+          
+          </div>
+        </div>
+        ---->
+      </div>
+
+    </div>
+    <!--x-container-x-->
+<!----
+    <div class="slider-btn">
+        <button id="prev"><</button>
+        <button id="next">></button>
+    </div>
+    ----->
+   </article>
   
 </main>
 </body>
