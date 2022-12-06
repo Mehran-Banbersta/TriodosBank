@@ -562,9 +562,7 @@ footer {
 
  padding-bottom: 2rem;
  }
- select option:first-child {
 
- }
 select {
   padding: 1rem;
 background-color: transparent;
@@ -924,6 +922,33 @@ border-bottom: 2px solid #6d83ad;
 /*****************
 /*    footer             */
 
+/*************************
+/*****************
+/*                      */
+
+footer {
+ 
+  padding: 2rem 2rem;
+}
+
+.select {
+
+ padding-bottom: 2rem;
+ }
+
+select {
+  padding: 1rem;
+background-color: transparent;
+  outline: 0;
+font-size: 1rem;
+  background-image: none;
+  width: 100%;
+  height: 60px;
+  color: #f1e7e7;
+  cursor: pointer;
+  border: 2px solid #e5f1f4;
+  border-radius: 10px;
+}
 
 .footer-menu {
   display: flex;
