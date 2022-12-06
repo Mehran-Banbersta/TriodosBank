@@ -16,9 +16,7 @@ p {
  padding-bottom: 1rem;
 }
 
-/****************************
-/*******************
-/*                         */
+
 
 
 
@@ -673,6 +671,16 @@ font-size: 1rem;
     padding: 1rem;
   }
 
+
+  .section-3 .item-1 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+   }
+
   .section-3 .item-3,
   .section-4,
   .section-6 .item-2,
@@ -785,8 +793,50 @@ font-size: 1rem;
   color: #00006b;
 }
 
+/*******************/
+.slider-2
+ {
+  margin-left: 1rem;
+}  
+
+        .slider-2-content {
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+        }
+
+        .slider-2 .slider-2-content h2,
+        .slider-2 .slider-2-content p {
+          text-align: center;
+        }    
+
+        .slider-container {
+          display: flex;
+          overflow-x: auto;
+        }
+
+        .slider-container .slide  {
+          flex: none;
+          width: 80%;
+       
+          margin: 0 1rem;
+          position: relative;
+        }
+
+        .image-wraper img {
+          flex: none;
+          width: 100%;
+        }
+
+        .image-wraper-content {
+          position: absolute;
+          top: 0;
+          color: #fcf9f9;
+        }
 
 
+/*************************
+/*****************
+/*                      */
 
 /************************/
 
