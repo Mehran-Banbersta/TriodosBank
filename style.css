@@ -170,9 +170,13 @@ nav {
  color: #00006b;
  height: auto;
  padding-bottom: 2rem;
+
 }
+
+      
      
       .section-3 .item-1 {
+        display: flex;
         padding-bottom: 2rem;
         padding-top: 2rem;
         margin-bottom: 2rem;
@@ -855,6 +859,16 @@ button.dropbtn {
  /************media (min-width: 768px**************/
  @media (min-width: 666px) {
   
+  #container-1 {
+    width: 70%;
+    margin: 0 auto;
+   }
+  
+   .container-2 {
+    width: 60%;
+    margin: 0 auto;
+   }
+
   .section-slider-1 {
     position: relative;
     
@@ -950,7 +964,15 @@ button.dropbtn {
  @media (min-width: 1024px){
  
   
+  #container-1 {
+    width: 70%;
+    margin: 0 auto;
+   }
   
+   .container-2 {
+    width: 60%;
+    margin: 0 auto;
+   }
   
   
   
@@ -1019,153 +1041,4 @@ button.dropbtn {
 
 /*************************
 /*****************
-/*                      
-       @media screen and (min-width: 600px) {
-        
-         #container-1 {
-  width: 80%;
-  margin: 0 auto;
- }
-
- .container-2 {
-  width: 70%;
-  margin: 0 auto;
- }
-        body {
-        
-        }
-        .flexbox-list {
-           justify-content: space-between;
-        }
-       
-        .flexbox-item {
-         width: 32%;
-        }
-
-
-        .section-3 {
-          background-color: #e6f2f5;
-          color: #00006b;
-          height: auto;
-          padding-bottom: 2rem;
-         }
-              
-               .section-3 .item-1 {
-                 display: flex;
-                 align-items: center;
-                 padding-bottom: 2rem;
-                 padding-top: 2rem;
-                 margin-bottom: 2rem;
-                 font-weight: 900;
-                }
-         
-                     .section-3 .item-1 h3{
-                       font-size: 1.3rem;
-                       margin-bottom: .8rem;
-                     }
-         
-                     .section-3 .item-1 ul li {
-                       list-style: none;
-                       padding-bottom: .8rem;
-                       font-size: 1.1rem;
-                     }
-         
-                     .section-3 .item-1 ul li a,
-                     .section-3 .item-3 a{
-                       color: #00006b;
-                       text-decoration: none;
-                       position: relative;
-                      }
-         
-                   
-                     
-                      .section-3 .item-1 ul li a:after,
-                      .section-3 .item-3 a:after{
-                       content: '';
-                       width: 100%;
-                       position: absolute;
-                       left: 0;
-                       top: 21px;
-                       border-width: 0 0 1px;
-                       border-bottom: 2px solid #6d83ad;
-                       
-                     }
-                    
-                     .section-3 .item-1 .item-1_content-1 {
-                      margin-right: 6rem;
-                     }
-         
-                     .section-3 .item-1 .fa-chevron-right,
-                     .section-3 .item-3 .fa-chevron-right {
-                       padding-right: .5rem;
-                       font-size: .8rem;
-                     }
-         
-                     
-                
-         
-               .section-3 .item-2 {
-                 display: flex;
-                 justify-content: space-between;
-                 align-items: center;
-                 padding-left: 3rem;
-                 padding-right: 3rem;
-                 background-color: #fcf9f9;
-                 min-width: 90%;
-                 height: 14vh;
-               }
-         
-                     .section-3 .item-2 button{
-                     width: 40px;
-                     height: 40px;
-                     border-radius: 90%;
-                     font-size: 2rem;
-                     border: 2px solid #bfbfbf;
-                     background-color: inherit;
-                     }
-         
-         
-               .section-3 .item-3 {
-                background-color: #FFF5B9;
-                padding: 1.5rem;
-                margin-top: 4rem;
-               } 
-         
-         
-                     .section-3 .item-3 .fa-chevron-right {
-                       padding-right: .5rem;
-                       font-size: .8rem;
-                     }
-         
-         
-                     .section-3 .item-3 a {
-                       font-weight: 900;
-                     }
-      
-      /*  
-      /
-
-      .slider-1 {
-      display: flex;
-      width: 100%;
-      justify-content: space-evenly;
-       
-     
-      }
-
-          .img-slider {
-            padding-top: 2rem;
-            background-color: #714141;
-          width: 28%;
-            background-color: inherit;
-          }
-
-          .img-slider img {
-        width: 100%;
-      
- 
-           border-radius: 20px;
-           
-          }
-      }
-      */
+/*                      */
