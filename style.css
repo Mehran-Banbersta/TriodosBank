@@ -22,12 +22,21 @@ body {
 /****************************
 /*******************
 /*         nav                */
+header {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transition: all 700ms ease-in-out;
+}
 
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1.5rem;
+  height: 60px;
   color: #00006b;
 }
 .menu {
@@ -62,6 +71,15 @@ nav .loggin-btn button {
   font-size: 1rem;
 }
 
+
+/* scroll stuff */
+.scroll-down header {
+  transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up header {
+
+}
 /****************************
       /*******************
       /*       home-page-top          */
