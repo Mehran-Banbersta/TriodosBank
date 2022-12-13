@@ -23,7 +23,7 @@ p {
 
 #modal {
   background-color: #fff4b9;
-  height: 100vh;
+  height: auto;
   position: absolute;
   top: 4rem;
   width: 100%;
@@ -60,6 +60,10 @@ p {
   width: 100%;
 }
 
+.modal-menu h3{
+  color: #00006b;
+}
+
 .modal-menu ul {
   padding-bottom: 2rem;
   padding-top: 2rem;
@@ -93,6 +97,7 @@ p {
 
 .modal-menu ul li .fa-chevron-right {
   margin-right: 0.5rem;
+  color: #00006b;
 }
 
 @media (max-width: 1024px) {
